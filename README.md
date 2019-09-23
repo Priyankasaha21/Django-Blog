@@ -17,12 +17,12 @@ Views are mapped to URLs. We take the MTV(Model Templates Views) approach. Templ
 After setting up everything, we register the models in admin.py file and create a superuser for admin access. Superuser credentials are, name: priyanka, password: p@21021994. Then we migrate to create a database and make sure everything is set up properly. Using the command "python manage.py runserver 8080", we get the url "http://127.0.0.1:8080/". Pasting it in our browser gives the application we created.
 
 
-(MyDjangoEnv) C:\Users\PRIYANKA KUMARI\Desktop\Blog_Clone_Project_1\blog_project>python manag
-e.py runserver 8080
+(MyDjangoEnv) C:\Users\PRIYANKA KUMARI\Desktop\myblog\blog_project\mysite>python manage.py ru
+nserver 8080
 Performing system checks...
 
 System check identified no issues (0 silenced).
-September 23, 2019 - 21:08:25
+September 23, 2019 - 21:41:50
 Django version 1.10.5, using settings 'mysite.settings'
 Starting development server at http://127.0.0.1:8080/
 Quit the server with CTRL-BREAK.
